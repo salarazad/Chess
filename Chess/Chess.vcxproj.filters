@@ -26,5 +26,8 @@
     <ClInclude Include="boardlayout.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="warriors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

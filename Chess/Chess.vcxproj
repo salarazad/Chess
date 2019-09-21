@@ -156,6 +156,7 @@
   <ItemGroup>
     <ClInclude Include="boardlayout.h" />
     <ClInclude Include="myheader.h" />
+    <ClInclude Include="warriors.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

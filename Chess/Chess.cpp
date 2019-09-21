@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <conio.h>
 #include "boardlayout.h"
+#include "warriors.h"
 
 
 int main()
@@ -15,6 +16,8 @@ int main()
 	//std::cout << "Hello World!\n";
 
 	boardlayout();
+	warriors();
+	names();
 
 
 

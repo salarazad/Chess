@@ -47,7 +47,7 @@ void setcolor(char text[], char color[]) {
 */
 
 //print a string to a coordination
-void printstr(double x, double y, char string[]) {
+void printstr(double x, double y, const char string[]) {
 	COORD coord;
 	coord.X = x;
 	coord.Y = y;
