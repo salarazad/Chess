@@ -59,3 +59,21 @@ void names() {
 
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), WHITE);
 }
+
+
+
+void pieceselection(char piece) {
+	switch (piece)
+	{
+		case 'k': printstr(125, 2, "King selected"); printstr(120, 14, "moves:"); printstr(120, 15, "u: up"); printstr(120, 16, "d: down"); printstr(120, 17, "r: right"); printstr(120, 18, "l: left"); printstr(120, 19, "ur: up,right"); printstr(120, 20, "ul: up,left"); printstr(120, 21, "dr: down,right"); printstr(120, 22, "dl: down,left"); break;
+		case 'q': printstr(125, 2, "Queen selected"); printstr(120, 14, "moves:"); printstr(120, 15, "u: up"); printstr(120, 16, "d: down"); printstr(120, 17, "r: right"); printstr(120, 18, "l: left"); printstr(120, 19, "ur: up,right"); printstr(120, 20, "ul: up,left"); printstr(120, 21, "dr: down,right"); printstr(120, 22, "dl: down,left"); break;
+		case 'r': printstr(125, 2, "Rook selected"); printstr(120, 14, "moves:"); printstr(120, 15, "u: up"); printstr(120, 16, "d: down"); printstr(120, 17, "r: right"); printstr(120, 18, "l: left"); break;
+		case 'b': printstr(125, 2, "Bishop selected"); printstr(120,14,"moves:"); printstr(120, 15, "ur: up,right"); printstr(120, 16, "ul: up,left"); printstr(120, 17, "dr: down,right"); printstr(120, 18, "dl: down,left"); break;
+		case 'n': printstr(125, 2, "Knight selected"); printstr(120, 14, "moves:"); printstr(120, 15, "uur: up up right"); printstr(120, 16, "uul: up up left"); printstr(120, 17, "ddr: down down right"); printstr(120, 18, "ddl: down down left"); printstr(120, 19, "urr: up right right"); printstr(120, 20, "ull: up left left"); printstr(120, 21, "drr: down right right"); printstr(120, 22, "dll: down left left"); break;
+		case 'p': printstr(125, 2, "Pawn selected"); printstr(120, 14, "moves:"); printstr(120, 15, "d: down"); break;
+		default: break;
+	}
+}
+
+
+

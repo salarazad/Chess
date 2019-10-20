@@ -155,6 +155,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="boardlayout.h" />
+    <ClInclude Include="movements.h" />
     <ClInclude Include="myheader.h" />
     <ClInclude Include="warriors.h" />
   </ItemGroup>

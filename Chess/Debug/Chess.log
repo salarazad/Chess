@@ -1,10 +1,16 @@
 ﻿  Chess.cpp
-C:\Users\salar\Documents\VisualBasicC++\ConsoleApplications\Chess\Chess\myheader.h(52,12): warning C4244:  '=': conversion from 'double' to 'SHORT', possible loss of data
-C:\Users\salar\Documents\VisualBasicC++\ConsoleApplications\Chess\Chess\myheader.h(53,12): warning C4244:  '=': conversion from 'double' to 'SHORT', possible loss of data
-C:\Users\salar\Documents\VisualBasicC++\ConsoleApplications\Chess\Chess\myheader.h(61,12): warning C4244:  '=': conversion from 'double' to 'SHORT', possible loss of data
-C:\Users\salar\Documents\VisualBasicC++\ConsoleApplications\Chess\Chess\myheader.h(62,12): warning C4244:  '=': conversion from 'double' to 'SHORT', possible loss of data
-C:\Users\salar\Documents\VisualBasicC++\ConsoleApplications\Chess\Chess\myheader.h(70,12): warning C4244:  '=': conversion from 'double' to 'SHORT', possible loss of data
-C:\Users\salar\Documents\VisualBasicC++\ConsoleApplications\Chess\Chess\myheader.h(71,12): warning C4244:  '=': conversion from 'double' to 'SHORT', possible loss of data
-C:\Users\salar\Documents\VisualBasicC++\ConsoleApplications\Chess\Chess\myheader.h(79,12): warning C4244:  '=': conversion from 'double' to 'SHORT', possible loss of data
-C:\Users\salar\Documents\VisualBasicC++\ConsoleApplications\Chess\Chess\myheader.h(80,12): warning C4244:  '=': conversion from 'double' to 'SHORT', possible loss of data
+C:\Users\salar\Documents\VisualBasicC++\ConsoleApplications\Chess\Chess\myheader.h(55,12): warning C4244: '=': conversion from 'double' to 'SHORT', possible loss of data
+C:\Users\salar\Documents\VisualBasicC++\ConsoleApplications\Chess\Chess\myheader.h(56,12): warning C4244: '=': conversion from 'double' to 'SHORT', possible loss of data
+C:\Users\salar\Documents\VisualBasicC++\ConsoleApplications\Chess\Chess\myheader.h(66,12): warning C4244: '=': conversion from 'double' to 'SHORT', possible loss of data
+C:\Users\salar\Documents\VisualBasicC++\ConsoleApplications\Chess\Chess\myheader.h(67,12): warning C4244: '=': conversion from 'double' to 'SHORT', possible loss of data
+C:\Users\salar\Documents\VisualBasicC++\ConsoleApplications\Chess\Chess\myheader.h(75,12): warning C4244: '=': conversion from 'double' to 'SHORT', possible loss of data
+C:\Users\salar\Documents\VisualBasicC++\ConsoleApplications\Chess\Chess\myheader.h(76,12): warning C4244: '=': conversion from 'double' to 'SHORT', possible loss of data
+C:\Users\salar\Documents\VisualBasicC++\ConsoleApplications\Chess\Chess\myheader.h(84,12): warning C4244: '=': conversion from 'double' to 'SHORT', possible loss of data
+C:\Users\salar\Documents\VisualBasicC++\ConsoleApplications\Chess\Chess\myheader.h(85,12): warning C4244: '=': conversion from 'double' to 'SHORT', possible loss of data
+C:\Users\salar\Documents\VisualBasicC++\ConsoleApplications\Chess\Chess\myheader.h(93,12): warning C4244: '=': conversion from 'double' to 'SHORT', possible loss of data
+C:\Users\salar\Documents\VisualBasicC++\ConsoleApplications\Chess\Chess\myheader.h(94,12): warning C4244: '=': conversion from 'double' to 'SHORT', possible loss of data
+C:\Users\salar\Documents\VisualBasicC++\ConsoleApplications\Chess\Chess\myheader.h(102,12): warning C4244: '=': conversion from 'double' to 'SHORT', possible loss of data
+C:\Users\salar\Documents\VisualBasicC++\ConsoleApplications\Chess\Chess\myheader.h(103,12): warning C4244: '=': conversion from 'double' to 'SHORT', possible loss of data
+C:\Users\salar\Documents\VisualBasicC++\ConsoleApplications\Chess\Chess\Chess.cpp(34,6): warning C4101: 'pawnnumber': unreferenced local variable
+C:\Users\salar\Documents\VisualBasicC++\ConsoleApplications\Chess\Chess\Chess.cpp(33,7): warning C4101: 'move': unreferenced local variable
   Chess.vcxproj -> C:\Users\salar\Documents\VisualBasicC++\ConsoleApplications\Chess\Debug\Chess.exe

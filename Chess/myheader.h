@@ -31,11 +31,13 @@
 #define 	F9 				67
 #define 	F10 			68
 #define 	HOME 			71
-#define 	UP 				72
+#define 	END 			79
 #define 	PAGE_UP 		73
+#define		DOWN			80
 #define 	LEFT 			75
 #define 	RIGHT 			77
-#define 	END 			79
+#define 	UP 				72
+
 
 /*
 //setting a color to a specific text
@@ -46,8 +48,29 @@ void setcolor(char text[], char color[]) {
 }
 */
 
+
+//clear
+void clear(double x, double y, int length) {
+	COORD coord;
+	coord.X = x;
+	coord.Y = y;
+	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
+	for (int s = 0; s < length; s++) {
+		printf(" ");
+	}
+}
+
 //print a string to a coordination
 void printstr(double x, double y, const char string[]) {
+	COORD coord;
+	coord.X = x;
+	coord.Y = y;
+	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
+	std::cout << string << std::endl;
+}
+
+//print a C++ string to a coordination
+void printcppstr(double x, double y, std::string string) {
 	COORD coord;
 	coord.X = x;
 	coord.Y = y;

@@ -29,5 +29,8 @@
     <ClInclude Include="warriors.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="movements.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
